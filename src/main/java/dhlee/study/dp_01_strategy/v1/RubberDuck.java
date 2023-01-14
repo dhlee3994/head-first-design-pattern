@@ -6,10 +6,12 @@ class RubberDuck extends Duck {
     void quack() {
         System.out.println("삑삑");
     }
+
     @Override
     void display() {
         System.out.println("Rubber Duck!");
     }
+
     @Override
     void fly() {
         System.out.println("아무것도 안해요");
